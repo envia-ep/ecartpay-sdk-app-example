@@ -1,0 +1,35 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+.navigation/
+captures/
+*.keystore
+
+# Mac
+.DS_Store
+
+# Sensitive credentials - DO NOT COMMIT
+app/src/main/kotlin/com/ecartpay/sample/BuildCredentials.kt

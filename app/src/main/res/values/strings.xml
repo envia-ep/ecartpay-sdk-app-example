@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ecartpay SDK Sample</string>
+    <string name="title">ecartpay Tap-to-Phone</string>
+    <string name="setup_device">1. Setup (Register + Enroll)</string>
+    <string name="register_device">Register</string>
+    <string name="enroll_device">Enroll</string>
+    <string name="start_payment">2. Charge</string>
+    <string name="reset_local_state">Reset local state</string>
+    <string name="scenario_label">Payment scenario:</string>
+    <string name="amount_hint">Amount</string>
+    <string name="currency_hint">Currency</string>
+    <string name="email_hint">Email (optional)</string>
+    <string name="first_name_hint">First name (optional)</string>
+    <string name="last_name_hint">Last name (optional)</string>
+    <string name="phone_hint">Phone (optional)</string>
+    <string name="reference_hint">Reference (optional)</string>
+
+    <string-array name="payment_scenarios">
+        <item>1. Mínimo (amount + currency)</item>
+        <item>2. + Customer (email, phone, name)</item>
+        <item>3. + Reference (reference, reference_id)</item>
+        <item>4. Items (sin amount)</item>
+        <item>5. Items + Customer</item>
+        <item>6. Items + Shipping</item>
+        <item>7. Completo (todos los campos)</item>
+    </string-array>
+    <string name="status_registered">Registered — %1$s</string>
+    <string name="status_not_registered">Device not registered</string>
+
+    <string name="tap_to_pay_ready_dialog_title">Tap to Pay Ready is required</string>
+    <string name="tap_to_pay_ready_dialog_message">
+        To enroll this device you must install Visa\'s "Tap to Pay Ready" app first.
+        Install it from Google Play, open it once so it initializes, then come back and press "Retry".
+    </string>
+    <string name="tap_to_pay_ready_dialog_open_playstore">Open Google Play</string>
+    <string name="tap_to_pay_ready_dialog_retry">Retry</string>
+</resources>

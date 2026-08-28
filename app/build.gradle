@@ -44,7 +44,7 @@ android {
 
 dependencies {
     // Ecart Pay SDK - Tap to Phone
-    implementation 'com.ecartpay:tap-to-phone-sdk:1.0.0'
+    implementation 'com.ecartpay:tap-to-phone-sdk:1.0.1'
 
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${rootProject.ext.kotlin_version}"

@@ -75,7 +75,7 @@ Add to your `build.gradle`:
 
 ```groovy
 dependencies {
-    implementation 'com.ecartpay:tap-to-phone-sdk:1.0.0'
+    implementation 'com.ecartpay:tap-to-phone-sdk:1.0.1'
 }
 ```
 
